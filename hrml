@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ALARM CLOCK</title>
+    <link rel="stylesheet" href="clock.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" href="logo.png" />
+</head>
+
+<body id="body">
+    <div class="frame" id="clock">
+        <div class="format" id="hour"></div>
+        <div class="format" id="minute"></div>
+        <div class="format" id="second"></div>
+    </div>
+    <div class="frame" id="alarm">
+        <input class="input" id="hrs" value="" placeholder="H">
+        <input class="input" id="min" value="" placeholder="M">
+        <input class="input" id="sec" value="" placeholder="S">
+    </div>
+    <button class="show" id="show" onclick="show()">SET ALARM</button>
+    <div class="info" id="info"></div>
+    <button class="stop" id="stop" onclick="stop()">STOP</button>
+</body>
+<script src="clock.js"></script>
+
+</html>
